@@ -7,3 +7,8 @@ edition = "2024"
 
 [lints.rust]
 unused = "allow"
+
+[dependencies.nokhwa]
+version = "0.10.0"
+# Use the native input backends, enable WGPU integration
+features = ["input-native", "output-wgpu"]
