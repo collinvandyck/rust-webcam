@@ -10,6 +10,6 @@ anyhow = "1.0.99"
 unused = "allow"
 
 [dependencies.nokhwa]
-version = "0.10.0"
+version = "0.10.9"
 # Use the native input backends, enable WGPU integration
 features = ["input-native", "output-wgpu"]
